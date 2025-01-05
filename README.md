@@ -10,7 +10,6 @@ Currently, **SilverFang** supports **League of Legends** champions and plans to 
 - **Custom Discord Status**: Update your Discord status to reflect your in-game activity, with detailed states and images.
 - **Custom Buttons**: Include custom buttons in your Discord activity (e.g., "Join my Server").
 - **League of Legends Support**: Select champions from different roles in League of Legends to set your Discord activity automatically.
-- **More Customization**: Allow users to trim the buttons they don't want to use to achieve a clearer menu, or add to **Favorite Activities**.
 
 > **Note:** This tool was originally created for personal use, which is why a lot of the content is hardcoded. However, I plan to make it more user-friendly and adaptable for the public in future versions. You can still download and modify it, or contact me over Discord (`rioterneeko`) if you have some good suggestions.
 
@@ -72,6 +71,8 @@ Currently, **SilverFang** supports **League of Legends** champions and plans to 
 - Additional Games: Plans to add support for more games.
 
 - More Detailed Status Options: Support for additional Discord status options, such as "Watching" or "Listening to".
+
+- More Customization: Allow users to trim the buttons they don't want to use to achieve a clearer menu, or add to Favorite Activities.
 
 - Custom Image Support: Allow users to upload their own images for Discord status updates.
 
