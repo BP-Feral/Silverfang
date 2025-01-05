@@ -40,7 +40,8 @@ def update_discord_status():
                 state=current_state,
                 details=current_details,
                 large_image=current_image,
-                buttons=[{"label": "Join my Server!", "url": "https://discord.com/invite/2F7njSJeh7"}]
+                buttons=[{"label": "Join my Server!", "url": "https://discord.com/invite/2F7njSJeh7"},
+                         {"label": "Get this app!", "url": "https://github.com/BP-Feral/Silverfang"}]
             )
             print(f"Updated Discord status: {current_state} - {current_details} - {current_image}")
             last_state = current_state
@@ -106,3 +107,5 @@ rpc_thread.start()
 
 # Wait for the exit event to be triggered (the program will keep running until Exit is clicked)
 exit_event.wait()
+
+# pyinstaller --onefile --windowed --icon=silverfang.png  silverfang.py --name "silverfang"

@@ -51,7 +51,11 @@ Currently, **SilverFang** supports **League of Legends** champions and plans to 
 
     This will launch SilverFang, which will run in your system tray.
 
-    >_if you don't want to run from script you can download the default ap from Releases, or build the executable yourself using `pyinstaller`._
+    >_if you don't want to run from script you can [download the default app](https://github.com/BP-Feral/Silverfang/releases/download/v1.1pre/silverfang.rar) from Releases, or build the executable yourself using `pyinstaller`._
+    use this command and copy the icon next to the .exe
+    ```bash
+    pyinstaller --windowed --icon=silverfang.png  silverfang.py --name "silverfang"
+    ```
 
 2. Select Your Activity
 
